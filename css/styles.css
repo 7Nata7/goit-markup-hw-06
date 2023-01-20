@@ -342,7 +342,7 @@ color: var(--active-color);
     width: 16px;
     height: 16px;
     margin-left: -24px;
-    background-image: url(/images/Checkbox.svg);
+    background-image: url(../images/Checkbox.svg);
     background-color: var(--modal-bc);
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -353,7 +353,7 @@ color: var(--active-color);
     overflow: hidden;
 }
 .check-input:checked+.checkbox {
-    background-image: url(/images/Active-checkbox.svg);
+    background-image: url(../images/Active-checkbox.svg);
 }
 .text-check {
     color: #757575;
