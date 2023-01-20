@@ -348,9 +348,9 @@ color: var(--active-color);
     background-position: 50% 50%;
     cursor: pointer;
     transition: background-image var(--transition);
-    /* border: 1.25px solid #2E2F42;
+    border: 1.25px solid #2E2F42;
     border-radius: 2px;
-    overflow: hidden; */
+    overflow: hidden;
 }
 .check-input:checked+.checkbox {
     background-image: url(/images/Active-checkbox.svg);
