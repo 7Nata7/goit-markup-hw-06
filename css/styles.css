@@ -290,6 +290,9 @@ color: var(--active-color);
     position: relative;
     transition: fill var(--transition);
 }
+.parent {
+    position: relative;
+}
 .icon {
     position: absolute;
     left: 16px;
