@@ -361,11 +361,17 @@ color: var(--active-color);
 .text-check {
     color: #757575;
 }
+.agreement {
+    outline: none;
+}
 
 /* -------------------BUTTON-SEND---------------- */
 .button-modal {
     display: flex;
     justify-content: center;
+}
+.button-send{
+    outline: none;
 }
 /* --------------------ADVANTAGES--------------------- */
 .advantages {
