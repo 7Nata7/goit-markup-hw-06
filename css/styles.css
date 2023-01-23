@@ -262,8 +262,6 @@ color: var(--active-color);
     text-align: center;
     margin-bottom: 16px;
 }
-.contact-form {
-}
 .form-field {
     display: flex;
     flex-direction: column;
@@ -348,12 +346,6 @@ color: var(--active-color);
     margin-top: 16px;
     margin-bottom: 24px;
 }
-
-/* .t {
-display: table-cell;
-    vertical-align: middle;
-    height: 16 px;
-} */
 .checkbox {
     width: 16px;
     height: 16px;
@@ -375,7 +367,6 @@ display: table-cell;
     outline: none;
     margin-left: 3px;
 }
-
 /* -------------------BUTTON-SEND---------------- */
 .button-modal {
     display: flex;
@@ -543,15 +534,12 @@ display: table-cell;
 .footer-ground {
     background-color: var(--footer-background)
 }
-.two-boxes {
+.three-boxes {
     display: flex;
 }
 .first-footer-box {
     max-width: 264px;
     margin-right: 120px;
-}
-.second-footer-box {
-    max-width: 208px;
 }
 .logo-footer {
     line-height: 1.33;
@@ -585,11 +573,6 @@ display: table-cell;
 .soc-link-footer:hover, .soc-link-footer:focus {
     background-color: #31D0AA;
 }
-
-/* .subscribe-flex {
-    display: flex;
-    justify-content: center;
-} */
 .subscribe-input {
     width: 264px;
     height: 40px;
@@ -698,11 +681,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     left: 0;
     top: 0;
     transform: translateY(100%);
-    /* transition: var(--transition); нужно ли? */
+    transition: transform var(--transition);
 }
 .overlay-text {
     line-height: 1.5;
-    /* letter-spacing: 0.02em; */
     color: var(--team-background-color);
     position: absolute; 
     left: 32px;
